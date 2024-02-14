@@ -1,0 +1,42 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* CircleCount.css */
+.circle-count {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black; /* Add border */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle.grey {
+  background-color: grey; /* Fill with grey when clicked */
+}
+
+/* Button.css */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
